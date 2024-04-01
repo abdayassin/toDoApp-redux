@@ -1,0 +1,83 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* styles.css */
+.button {
+  /* Styles communs à tous les boutons */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save {
+  /* Styles spécifiques au bouton "save" */
+  background-color: #28a745; /* Vert pour le bouton "save" */
+  color: white;
+  border: none;
+}
+
+.delete {
+  /* Styles spécifiques au bouton "delete" */
+  background-color: #dc3545; /* Rouge pour le bouton "delete" */
+  color: white;
+  border: none;
+}
+
+.cancel {
+  /* Styles spécifiques au bouton "cancel" */
+  background-color: #ffc107; /* Jaune pour le bouton "cancel" */
+  color: black;
+  border: none;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  flex-direction: column;
+  width: 800px !important;
+
+ }
+ li{
+  color: #6c6b6b;
+  list-style: none !important;
+  }
